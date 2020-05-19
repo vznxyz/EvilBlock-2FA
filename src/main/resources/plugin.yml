@@ -1,0 +1,5 @@
+name: EvilBlock-2FA
+version: 1.0
+description: Require authorized users to authenticate by 2FA
+authors: [EvilBlock, joeleoli]
+main: net.evilblock.twofactorauth.TwoFactorAuth
