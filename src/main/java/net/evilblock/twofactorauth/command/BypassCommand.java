@@ -17,7 +17,7 @@ public class BypassCommand implements CommandExecutor {
 		if (sender instanceof Player) {
 			Player player = (Player) sender;
 
-			if (!Permissions.OTP_BYPASS.has(player)) {
+			if (!Permissions.OTP_BYPASS_COMMAND.has(player)) {
 				player.sendMessage(ChatColor.RED + "You don't have permission to execute that command.");
 				return true;
 			}

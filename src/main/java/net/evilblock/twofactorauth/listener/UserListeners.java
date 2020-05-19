@@ -31,6 +31,12 @@ public class UserListeners implements Listener {
         TwoFactorAuth plugin = TwoFactorAuth.getInstance();
         Player player = event.getPlayer();
 
+        if (plugin.isUseBypassPermission()) {
+            if (Permissions.OTP_BYPASS.has(player)) {
+                return;
+            }
+        }
+
         if (Permissions.OTP_ACCESS.has(player)) {
             Tasks.async(() -> {
                 if (plugin.getDatabaseImpl().isSetup(player.getUniqueId())) {

@@ -98,6 +98,10 @@ public class TwoFactorAuth extends JavaPlugin {
 		return mainConfig.getBoolean("settings.bypass-command-op-only", true);
 	}
 
+	public boolean isUseBypassPermission() {
+		return mainConfig.getBoolean("use-bypass-permission", false);
+	}
+
 	public boolean isDamageToLockedPlayersDisabled() {
 		return mainConfig.getBoolean("settings.disable-damage-to-locked-players", true);
 	}

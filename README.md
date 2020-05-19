@@ -75,3 +75,8 @@ setup-cancelled:
 setup-aborted:
   - "&aAborted 2FA setup."
 ```
+
+### Permissions
+* `2fa.access` - Grants access to the 2FA commands
+* `2fa.bypass` - Grants identity verification bypass (disabled by default)
+* `2fa.bypass.cmd` - Grants access to the bypass command
