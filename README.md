@@ -50,6 +50,8 @@ settings:
   agree-text: "yes"
   # If the bypass command can only be executed by the console
   bypass-command-op-only: true
+  # If players with the `2fa.bypass` permission are granted identity verification bypass
+  use-bypass-permission: false
   # If damage to players in the locked state is disabled
   disable-damage-to-locked-players: false
 ```
