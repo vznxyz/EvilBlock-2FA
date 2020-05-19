@@ -1,13 +1,16 @@
+![](https://i.imgur.com/Us7oVqO.png)
+
 # EvilBlock-2FA
 A two-factor authentication (OTP) implementation for your Minecraft server. Built with ease-of-use in mind, you can setup 2FA for your server's moderators and or players in a matter of minutes.
 
 ### Features
+* Supports flat-file (JSON) and MongoDB out of the box
 * Extensive configuration (made for dummies)
+* Displays QR Code image on map that works with 2FA apps
 * Configurable issuer name
 * Prevents locked players from interacting with the world, chat, etc
 * Prevents damage to locked players (by default)
 * Whitelisted commands for locked players
-* Supports flat-file (JSON) and MongoDB out of the box
 
 ### Install this plugin
 1. Download the [latest release](https://github.com/joeleoli/EvilBlock-2FA/releases).
